@@ -10,8 +10,8 @@
 		img {position: absolute;}
 		
 		.text {font-family: 'Oswald', sans-serif; width: 600px; color: white; position: absolute; font-weight: bold;}
-		.text2 {font-family: 'Big Shoulders Text', cursive; width: 600px; color: white; position: absolute; left: 400px; top: 100px; font-size: 0.7em; line-height: 1.5; opacity: 0.3;}
-		.text3 { font-family: 'Noto Sans KR', sans-serif; width: 700px; color: white; position: absolute; font-weight: bold; font-size: 1.3em; line-height: 1.5;}
+		.text2 {font-family: 'Big Shoulders Text', cursive; width: 600px; color: white; position: absolute; font-weight: bold; font-size: 3em;}
+		.text3 { font-family: 'Noto Sans KR', sans-serif; width: 700px; color: white; position: absolute; font-weight: bold; font-size: 1.2em; line-height: 1.8;}
 		.p {color: white; font-family: 'Noto Sans KR', sans-serif; text-align: center; font-size: 0.8em;}
 
 		#img1{top: 100px; width: 450px; left: 550px;}
@@ -32,10 +32,15 @@
 
 		#t1 {left: 250px; top: 70px; font-size: 1.7em; line-height: 1;}
 		#t2 {left: 450px; top: 70px;}
+		#t22 {left: 450px; top: 20px;}
 		#t3 {left: 750px; top: 100px; font-size: 1.7em;}
-		#t4 {left: 200px; top: 430px; width: 580px;}
+		#t33 {left: 750px; top: 50px;}
+		#t4 {left: 200px; top: 440px; width: 580px;}
+		#t44 {left: 920px; top: 320px; width: 580px;}
 		#t5 {left: 750px; top: 0px; position: absolute;}
-		#t6 {left: 400px; top: 70px;}
+		#t55 {left: 750px; top: 0px; position: absolute;}
+		#t6 {left: 400px; top: 120px;}
+		#t66 {left: 400px; top: 20px;}
 
 
 	@keyframes toleft{
@@ -69,6 +74,11 @@
 		to{top: 600px; opacity: 1;}
 	}
 
+	@keyframes bottom22{
+		from{top: 400px; opacity: 0.3;}
+		to{top: 500px; opacity: 1;}
+	}
+
 	@keyframes bottom2{
 		from{top: -200px; opacity: 0;}
 		to{top: 0px; opacity: 1;}
@@ -79,9 +89,19 @@
 		to{top: 50px; opacity: 1;}
 	}
 
+	@keyframes top1{
+		from{top: 200px; opacity: 0.3;}
+		to{top: -50px; opacity: 1;}
+	}
+
 	@keyframes top2{
 		from{top: 600px; opacity: 0.3;}
 		to{top: 300px; opacity: 1;}
+	}
+
+	@keyframes top22{
+		from{top: 600px; opacity: 0.3;}
+		to{top: 200px; opacity: 1;}
 	}
 
 
@@ -101,8 +121,10 @@
 	</section>
 
 	<section id="bc">
+		<div id="t22" class="text2" style="opacity: 0">
+			Liverpool.Football.Club
+		</div>
 		<div id="t2" class="text3" style="opacity: 0">
-			리버풀 축구 클럽은, <br>
 			잉글랜드 머지사이드주 리버풀을 연고로 하는 프리미어리그 축구 클럽이다.<br>
 			1892년 3월 15일 리버풀 축구 클럽이 탄생하게 되었다. <br> 구단의 최초의 이름은 에버턴 애슬레틱이었다. <br> 하지만 잉글랜드 축구 협회가 이미 존재하던 에버턴 팀과 이름이 헷갈릴 수 있다고하여 "리버풀 축구 클럽(Liverpool F.C.)"이 되었다.<br>
 			잉글랜드 축구에서 가장 성공적인 팀 중 하나인 리버풀은 영국 문화에서 축구를 묘사할 때 종종 특징적으로 삼기도 했었고 미디어에 처음으로 나오기도 했었다.<br>
@@ -116,6 +138,9 @@
 
 	<section id="c">
 		<img src="major.jpg" id="img3">
+		<div id="t33" class="text2" style="opacity: 0">
+			Major Honours
+		</div>
 		<div id="t3" class="text3" style="opacity: 0">
 			리버풀은 현재 총 18회의 리그 우승을 한 바 있으며, 8번의 리그 컵 우승, 7번의 FA컵우승, 그리고 6번의 UEFA 챔피언스리그 우승을 차지한 바 있는데 챔피언스리그 우승은 잉글랜드 내에서는 역대 최다 우승 기록으로 기록되어 있다.
 		</div>
@@ -123,6 +148,9 @@
 
 	<section id="d">
 		<img src="winner.jpg" id="img4" >
+		<div id="t44" class="text2" style="opacity: 0">
+			Champions League
+		</div>
 			<div id="t4" class="text3" style="opacity: 0">
 				2018-19 시즌에는 리그 2위로 마감했지만, 챔피언스리그에서는 14년 만에 우승을 차지하였다.<br>
 				리버풀은 챔피언스리그에서 5번 우승하여 잉글랜드 클럽 중 최다 기록을 갖고 있는데, 유럽 전역을 통틀어서 단 2개의 클럽만이 리버풀보다 더 많은 우승횟수를 가지고 있다. <br> 리버풀은 2005년에 5번째 챔피언스 리그 우승을 이뤄내며 UEFA 명예의 뱃지 착용 자격을 얻음과 동시에 챔피언스 리그 우승컵을 영구 소장할 수 있게 되었다. <br> 이는 잉글랜드에서는 최초이자 유일한 일이며 유럽의 수많은 축구 클럽 중 리버풀을 제외하고 영예의 배지를 착용할 수 있는 팀은 다섯 팀뿐이다.
@@ -133,6 +161,9 @@
 
 	<section id="e">
 		<img src="kop.jpg" id="img6">
+		<div id="t55" class="text2" style="opacity: 0">
+			The kop
+		</div>
 		<div id="t5" class="text3" style="opacity: 0">
 				리버풀은 많은 팬들을 보유하고 있으며, 모든 홈 경기들은 거의 매진이 되기도 한다. <br> 콥(Kop)은 리버풀 FC의 서포터즈를 통칭해 부르는 단어이다. 리버풀의 홈구장 안필드를 가득 메운 콥들의 열정적인 응원은 리버풀에겐 큰 힘을, 상대편에겐 상당한 부담감을 주는 것으로 유명하다.<br> 클럽에 대한 자부심과 충성심이 유별난 것으로 유명한데 비록 리버풀에게 힘든 시련이 없지 않았지만 과거 오랫동안 유럽 최강팀으로 군림했던 영광스런 역사가 있기에 그 시절이 다시 재현될 수 있다는 믿음을 항상 가지고 있다. 
 			</div>
@@ -142,6 +173,9 @@
 	</section>
 
 	<section id="fg">
+		<div id="t66" class="text2">
+			You'll Never Walk Alone
+		</div>
 		<div id="t6" class="text3">
 			You'll Never Walk Alone은 리버풀 FC를 상징하는 노래이자 표어로 알려져 있으며, 리버풀의 경기 시작시 서포터들에 의해서 불려지는 노래이다.<br>'어떤 어려울 때라도 당신은 혼자가 아니다'라는 스포츠 정신에 적절한 가사 덕에 리버풀 FC의 팬들이 경기 때마다 부르기 시작했고 그로 인해 리버풀의 대표 응원가가 되었다.
 		</div>
@@ -161,34 +195,42 @@
 		else{ img1.style.animation = "";}
 
 		if (t>300) {
-			t2.style.animation = "top 1.5s forwards";}
-			else{t2.style.animation = "";}
+			t2.style.animation = "top 1.5s forwards";
+			t22.style.animation = "top1 1.5s forwards";}
+			else{t2.style.animation = "";
+				t22.style.animation = "";}
 
 		if (t>300 ) { img2.style.animation = "bottom2 2s forwards";}
 		else{ img2.style.animation = "";}
 
 		if (t>2200 ) { img3.style.animation = "opa3 1.5s forwards";
-		t3.style.animation = "bottom 1.5s forwards";}
+		t3.style.animation = "bottom 1.5s forwards";
+		t33.style.animation = "bottom22 1.5s forwards";}
 		else{ img3.style.animation = "";
-		t3.style.animation = "";}
+		t3.style.animation = "";
+		t33.style.animation = "";}
 
-		if(t>2600) {
+		if(t>2700) {
 			img4.style.animation = "toleft 2s forwards";
 			img5.style.animation = "toleft2 2s forwards";
 			t4.style.animation = "opa2 4s forwards";
+			t44.style.animation = "opa2 4s forwards";
 		}
 		else{
 			img4.style.animation = "";
 			img5.style.animation = "";
-			t4.style.animation = "";}
+			t4.style.animation = "";
+			t44.style.animation = "";}
 
 		if (t>3600) {
 			img6.style.animation = "opa1 2s forwards";
 			t5.style.animation = "top2 1s forwards";
+			t55.style.animation = "top22 1s forwards";
 		}
 		else{
 			img6.style.animation = "";
 			t5.style.animation = "";
+			t55.style.animation = "";
 		}
 
 	}
